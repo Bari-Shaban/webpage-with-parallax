@@ -1,0 +1,137 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #000;
+}
+
+
+.part1 {
+    background-image: url('../project2/background/thriller-new.jpg');
+    height: 70%;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #a39d9d;
+}
+
+.part2 {
+    background-image: url('../project2/background/michael_jackson_bad.jpg');
+    height: 500px;
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #a39d9d;
+}
+
+.part3 {
+    background-image: url('../project2/background/dangerous.jpg');
+    height: 500px;
+    position: relative;
+    opacity: 0.75;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #a39d9d;
+}
+
+.part4 {
+    background-image: url('../project2/background/mj_history_og.jpg');
+    height: 500px;
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #a39d9d;
+}
+
+.part5 {
+    background-image: url('../project2/background/invincible.jpg');
+    min-height: 500px;
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #a39d9d;
+}
+
+.section {
+    text-align: center;
+    padding: 80px 80px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.top {
+    background-color: #000;
+    color: #fff;
+}
+
+.two {
+    background-color: #000;
+    color: #fff;
+}
+
+.three {
+    background-color: #000;
+    color: #fff;
+}
+
+.four {
+    background-color: #000;
+    color: #fff;
+}
+
+.five {
+    background-color: #000;
+    color: #fff;
+}
+
+.pt-text {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.pt-text .pt-border {
+    background-color: #dd2323;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pt-text .pt-border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .part1, .part2, .part3, .part4, .part5 {
+        background-attachment: scroll;
+    }
+}
+
